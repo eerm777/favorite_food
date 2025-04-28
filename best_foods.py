@@ -2,4 +2,4 @@
 #Print the list as a numbered list
 #Print the list in alphabetical order (you can create a new list or change the original one)
 
-favorite_foods = []
+favorite_foods = ["Cake", ]
