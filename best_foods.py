@@ -1,5 +1,6 @@
 favorite_foods = ["Steak", "Manti", "Loaded fries", "Shashlyk", "Shawerma", "Lagman", "Strawberry Cheescake Milkshake", "Brizol"]
 
+<<<<<<< HEAD
 print("FOODS IN ORDER OF PREFERENCE")
 print()
 for i in range(len(favorite_foods)):
@@ -51,3 +52,19 @@ print()
 
 for sport in alphabetical_sports:
     print("- " + sport)
+=======
+favorite_foods = ["Chocolate Cake", "Pasta", "Turkey Sandwich",
+                  "Pumpkin Pie", "Roast Beef", "Pizza", "Potato Chips",
+                  "Popcorn", "Cookies", "Broccoli"]
+
+for i, food in enumerate(favorite_foods):
+    print(f"{i+1}. {food}")
+
+sorted_list =favorite_foods
+sorted_list.sort()
+
+
+
+
+
+>>>>>>> 06eba9b7226810794232276f12b540edac4ddfda
